@@ -1,0 +1,18 @@
+@media all and (max-width: 480px) {
+	#logo img {
+	    height: auto;
+	    width: 220px;
+	}
+
+	/*//////////// CONNEXION /////////////  */
+
+	.submit {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	}
+
+
+
+
+
+}

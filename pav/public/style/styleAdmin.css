@@ -1,0 +1,95 @@
+.deconnexion {
+	padding-bottom: 40px;
+	padding-top: 10px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    margin-bottom: 10px;
+}
+button .deconnexion{
+	height: 30px;
+	width: 50px;
+	border-radius: 5px;
+}
+button:hover .deconnexion{
+	height: 30px;
+	border-radius: 5px;
+	color: lightblue;
+}
+
+
+ul {
+    margin: 0 auto;
+    width: 260px;
+    padding: 1em;
+
+}
+
+ul > li {
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+a {
+    text-decoration:none;
+    color:#589765;
+}
+
+a:hover {
+    text-decoration:underline;
+    color:#585200;
+}
+
+.navAdmin{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+
+.container-fluid {
+	text-align: center;
+	justify-content: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/* COLLAPSIBLE */
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  width: 100%;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  line-height: 15px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
